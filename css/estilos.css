@@ -1,0 +1,592 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+/*---------------------------Body---------------------------*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*---------------------------Fin body---------------------------*/
+
+
+
+
+
+/*---------------------------SCROLLBAR ---------------------------*/
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border: 5px solid #ffffff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg, #483d8b,#fff,#483d8b);
+    border-radius: 5px;
+}
+/*---------------------------FIN SCROLLBAR ---------------------------*/
+
+
+
+
+
+/*---------------------------Header---------------------------*/
+header{
+    display: flex;
+    position: sticky;
+    justify-content:space-between;
+    min-height: 90px;
+    background-color: #7fffd4;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo  {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nombreLogo{
+    font-size: 25px;
+    font-weight: bold;
+}
+/*---------------------------Fin Header---------------------------*/
+
+
+
+
+/*---------------------------NAV---------------------------*/
+
+.navBar{
+    margin: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar .navBarList .navButton{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+
+.navButtonLinks, .navButtonLogo{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: 600;
+}
+.navButtonLinks:hover {
+    color:#8a2be2;
+}
+
+
+
+/*---------------------------Fin NAV---------------------------*/
+
+
+
+
+
+
+/*---------------------------MAIN---------------------------*/
+.h2-index{
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+    background-color: #483d8b;
+    color: #fff;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.marcasflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-contact{
+    display: flex;
+    justify-content: center;
+}
+
+.prod-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* IMAGENES MAIN */
+.oferta {
+    height: 300px;
+    width: 400px;
+}
+
+.productosimg {
+    margin: 10px;
+    padding: 10px;
+    height:200px;
+    width: 250px;
+    border: 2px solid black;
+}
+
+.foto-pc{
+    height: 250px;
+    width: 300px;
+}
+
+.marcas{
+    height: 100px;
+    width: 200px;
+}
+
+.local-foto{
+    height: 80%;
+    width: 80%;
+}
+
+.mapa-foto{
+    height: 80%;
+    width: 80%;
+}
+
+
+/* FIN IMAGENES */
+
+/*-------- Section 1 ------*/
+ .section1{
+    background-color: #fff;
+    border: 2px solid black ;
+ }
+
+/*-------- Section 2 ------*/
+.section2{
+background-color: #949494a9;
+
+}
+
+.subtit{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.pc-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pc-combo{
+    height: 300px;
+    width: 400px;
+}
+
+
+
+
+/*-------- Section 3 ------*/
+.section3{
+    display: flex;
+    justify-content: space-between;
+    background-color:#ffffff;
+}
+
+.novedad{
+    height: 200px;
+    width: 350px;
+}
+
+/*--------------------------- FIN MAIN---------------------------*/
+
+
+
+
+
+
+
+
+
+/*---------------------------Tabla---------------------------*/
+
+table,th ,td {
+    border: 2px solid black ;
+    border-collapse: collapse;
+    padding: 10px 30px;
+    margin: auto;
+}
+ 
+thead {
+    background-color: #483d8b;
+}
+ 
+tr:nth-child(even) {
+    background-color:#D9E4DD;
+}
+
+/*---------------------------Fin Tabla---------------------------*/
+
+
+
+
+
+/*---------------------------Form---------------------------*/
+
+.imagenLogin {
+    height: 70px;
+    size: 70px;
+}
+
+.text-login{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.formPoss{
+    margin: auto;
+    padding: 4.5em 3em;
+}
+ 
+.form {
+    background-color:#7fffd4;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px ;
+    text-align: center;
+}
+ 
+input {
+    width: 100%;
+    font-size: 20px;
+    margin: 10px;
+}
+ 
+label {
+    font-weight: bold;
+    font-size:large;
+}
+
+/*---------------------------Fin form---------------------------*/
+
+
+
+
+
+/*---------------------------Footer---------------------------*/
+footer {
+    background:linear-gradient(0deg,#7fffd4 30%, #fff 100% ) ;
+    margin-top: auto;
+    padding: 5px;
+    text-align:left;
+}
+/*---------------------------Fin Footer---------------------------*/
+
+
+
+
+
+
+/*---------------------------Grid general---------------------------*/
+.contenidoMain1{
+    text-align: center;
+}
+.contenidoMain2{
+    text-align: center;
+}
+.contenidoMain3{
+    text-align: center;
+}
+.subtit{
+    font-weight: bold;
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+    margin: 0px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: 
+    "headerGrid headerGrid headerGrid headerGrid headerGrid headerGrid"
+    "contenido contenido contenido contenido contenido contenido"
+    "metodo metodo metodo metodo metodo metodo"
+    "widget-1 widget-1 widget-2 widget-2 sidebar sidebar"
+    "footer footer footer footer footer footer";
+}
+
+.container > div,
+.container .headerGrid,
+.container .contenido,
+.container .metodo,
+.container .sidebar,
+.container .widget-1,
+.container .widget-2,
+.container .footer{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.container .headerGrid{
+    display: flex;
+    justify-content:space-between;
+    height: 120px;
+    background-color: #7fffd4;
+    align-items: center;
+    padding: 0px;
+    grid-area: headerGrid;
+}
+
+.container .headerGrid .logo  {
+    display: flex;
+    align-items: center;
+}
+
+.container .headerGrider .logo-img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.container .headerGrid .nombreLogo{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container .metodo{
+    grid-area: metodo;
+    background-color: #fff;
+}
+
+.contacto{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contenidoMain{
+    grid-area: contenido;
+}
+
+/*---------------------------Grid Dentro Del Grid--------------------------*/
+.contenido{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:repeat(4,1fr) ;
+    grid-template-rows: repeat(3,auto);
+    background-color: #fff;
+    grid-template-areas: 
+    "h2 h2 h2 h2"
+    "contenidoMain1 contenidoMain1 contenidoMain2 contenidoMain2"
+    "contenidoMain3 contenidoMain3 contenidoMain4 contenidoMain4"
+    ;
+}
+
+.container .contenidoMain1,
+.container .contenidoMain2,
+.container .contenidoMain3,
+.container .contenidoMain4{
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contenido .h2{
+    grid-area: h2;
+    background-color: #fff;
+    border-radius: 5px;
+    
+}
+.contenido .contenidoMain1{
+    grid-area: contenidoMain1;
+}
+
+.contenido .contenidoMain2{
+    grid-area: contenidoMain2;
+}
+
+.contenido .contenidoMain3{
+    grid-area: contenidoMain3;
+}
+.contenido .contenidoMain4{
+    grid-area: contenidoMain4;
+}
+
+.container .sidebar{
+    grid-area: sidebar;
+    border: 1px solid black;
+}
+
+.container .widget-1{
+    grid-area: widget-1;
+    border: 1px solid black;
+}
+
+.container .widget-2{
+    grid-area: widget-2;
+    border: 1px solid black;
+}
+
+.container .footer{
+    grid-area: footer;
+    background:linear-gradient(0deg,#7fffd4 30%, #ffffff 100% ) ;
+    margin-top: auto;
+    text-align:left;
+}
+
+
+
+
+
+
+/*---------------------------Media Queries---------------------------*/
+@media (max-width:560px){
+    table,th ,td {
+        padding: 0px;
+    }
+    .imagenLogin {
+        height: 50px;
+        size: 50px;
+    }
+    .form {
+        width: 80%;
+        padding: 2px ;
+    }
+    .formPoss{
+        margin: 5px;
+        padding: 0px;
+    }
+     
+    input {
+        width: 80%;
+        font-size: 20px;
+        margin: 5px;
+    }
+    .media{
+        display: none;
+    }
+}
+
+
+
+@media (max-width:785px){
+
+    .navBar{
+        width: 40%;
+        align-items: center;
+    }
+    .navBarList{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 0px;
+
+    }
+    .headerNav{
+        flex-direction: column;
+        padding: 5px;
+    }
+
+
+
+
+    .headerGrid{
+        padding: 10px 10px 30px 10px;
+    }
+    .oferta {
+        height: 150px;
+        width: 200px;
+    }
+    .pc-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .prod-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenido{
+        grid-gap: 5px 0px;
+        grid-template-columns:repeat(1,1fr) ;
+        grid-template-rows: repeat(5,auto);
+        background-color: #fff;
+        grid-template-areas: 
+        "h2 "
+        "contenidoMain1"
+        "contenidoMain2"
+        "contenidoMain3"
+        "contenidoMain4"
+        ;
+    }
+    .container{
+        grid-gap: 20px 0px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, auto);
+        grid-template-areas: 
+        "headerGrid "
+        "contenido "
+        "metodo"
+        "widget-1"
+        "widget-2"
+        "sidebar"
+        "footer";
+    }
+    .section3{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+@media (max-width:910px){
+    .novedad{
+        height: 100px;
+        width: 200px;
+    }
+    .pc-combo{
+        height: 200px;
+        width: 300px;
+    }
+}
+@media (max-width:1020px){
+    .productosimg{
+        margin: 5px;
+        padding: 5px;
+        height:100px;
+        width: 200px;
+    }
+    .marcas{
+        height: 50px;
+        width: 100px;
+    }
+    .section-marcas{
+        display: flex;
+        justify-content: space-between;
+    }
+}
